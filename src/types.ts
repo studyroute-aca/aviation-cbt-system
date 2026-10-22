@@ -1,0 +1,9 @@
+export type Choice = { id: string; text: string }
+export type Question = { id: string; examId: string; subject: string; category: string; questionText: string; choices: Choice[]; correctChoiceId: string; explanation: string; difficulty: number; points: number; createdYearMonth: string; version: number; sourceType: 'original' | 'ai'; isAiGenerated: boolean; reviewStatus: 'draft' | 'review' | 'approved'; status: 'unpublished' | 'published' }
+export type Exam = { id: string; name: string; period: string; subject: string; questionCount: number; durationMinutes: number; pointsPerQuestion: number; passingScore: number }
+export type ManagedExam = { exam: Exam; questions: Question[]; status: 'draft' | 'review' | 'published' | 'unpublished'; updatedAt: number }
+export type User = { id: string; displayName: string }
+export type Answer = { questionId: string; choiceId?: string; markedForReview: boolean; startedAt: number; answeredAt?: number }
+export type ExamSession = { examId: string; userId: string; answers: Answer[]; currentIndex: number; startedAt: number; expiresAt: number }
+export type CategoryResult = { category: string; correct: number; total: number; percentage: number }
+export type ExamResult = { id: string; examId: string; examPeriod: string; userId: string; answers: Answer[]; score: number; correctCount: number; unansweredCount: number; submittedAt: number; startedAt: number; submissionType: 'manual' | 'timeout'; categories: CategoryResult[] }

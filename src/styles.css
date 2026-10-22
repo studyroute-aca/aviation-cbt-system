@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+:root{font-family:'Noto Sans JP',sans-serif;color:#172b4d;background:#f7f9fc;line-height:1.7}*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button,a{cursor:pointer}a{color:inherit;text-decoration:none}header{height:72px;background:#fff;border-bottom:1px solid #e4e9f0;display:flex;align-items:center;justify-content:space-between;padding:0 max(24px,calc((100% - 1120px)/2))}.brand{font-weight:800;letter-spacing:.12em;color:#123b6d}.brand span{font-size:10px;color:#8b9ab0;margin-left:5px}nav{display:flex;gap:26px;align-items:center;font-size:14px}.link-button{background:none;border:0;color:#53647c}.login-page{min-height:100vh;display:grid;place-items:center;background:#123b6d}.login-panel{background:#fff;width:min(440px,calc(100% - 32px));padding:48px;border-radius:4px}.login-panel h1{font-size:32px;margin:8px 0 0}.lead{color:#60738e;margin:8px 0 32px}.eyebrow{color:#587ea7;font-size:11px;font-weight:800;letter-spacing:.12em;margin:0 0 8px}.login-panel form{display:grid;gap:16px}label{display:grid;gap:5px;font-size:13px;font-weight:700}input{border:1px solid #cdd7e4;border-radius:3px;padding:11px 12px;background:#fff}.error{color:#b42318;background:#fff1f0;padding:9px 12px;font-size:13px}.hint{font-size:12px;color:#8492a6;margin:24px 0 0}main{max-width:1120px;margin:0 auto;padding:44px 24px 80px}h1{font-size:32px;margin:0 0 30px}h2{font-size:24px;margin:5px 0 8px}h3{font-size:17px;margin:0 0 15px}.muted{color:#6c7d93;font-size:14px}.primary,.secondary{display:inline-flex;justify-content:center;align-items:center;gap:20px;border:1px solid #164d86;border-radius:3px;padding:12px 21px;font-weight:700;font-size:14px}.primary{background:#164d86;color:#fff}.primary:disabled{opacity:.45;cursor:not-allowed}.secondary{background:#fff;color:#164d86;border-color:#bccadb}.full{width:100%}.intro{border-left:4px solid #164d86;padding-left:22px;margin-bottom:30px}.summary-grid{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid #e1e7ef;margin:26px 0}.summary-grid>div{padding:20px 24px;border-right:1px solid #e1e7ef}.summary-grid>div:last-child{border:0}.summary-grid strong{display:block;font-size:28px}.summary-grid small{font-size:14px;margin-left:3px}.summary-grid span{display:block;color:#728198;font-size:12px}.notice{background:#f0f5fa;padding:22px 26px;margin:28px 0}.notice ul{margin:0;padding-left:20px;color:#53647c;font-size:14px}.actions{display:flex;gap:12px;margin-top:28px}.instruction{max-width:700px}.instruction dl{display:grid;grid-template-columns:140px 1fr;border-top:1px solid #e0e6ee}.instruction dt,.instruction dd{margin:0;padding:13px;border-bottom:1px solid #e0e6ee}.instruction dt{color:#718198}.check{display:flex;display:flex;align-items:center;margin:24px 0}.check input,.review-check input{width:18px;height:18px;margin-right:8px}.exam-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:28px}.exam-head h1{font-size:22px;margin:0}.timer{border:1px solid #dbe3ed;background:white;padding:8px 18px;text-align:right}.timer span{display:block;font-size:11px;color:#728198}.timer strong{font-size:24px;color:#164d86}.timer.warning{border-color:#c8493e}.timer.warning strong{color:#b42318}.exam-layout{display:grid;grid-template-columns:230px 1fr;gap:48px}.question-nav{background:#fff;border:1px solid #e1e7ef;padding:20px;height:max-content}.number-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}.number-grid button{height:35px;border:1px solid #cbd6e3;background:#fff;color:#63758c}.number-grid button.current{border:2px solid #164d86;color:#164d86;font-weight:800}.number-grid button.answered{background:#e2edf8}.number-grid button.review{box-shadow:inset 0 -3px #d28633}.legend{font-size:11px;color:#728198}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#dbe7f4}.dot.review{background:#d28633}.question{background:#fff;border:1px solid #e1e7ef;padding:38px;min-height:520px}.tag{color:#587ea7;font-size:13px}.question h2{font-size:23px;line-height:1.8;margin:35px 0}.choices{display:grid;gap:10px}.choices button{display:flex;text-align:left;gap:16px;background:#fff;border:1px solid #cbd6e3;padding:15px;border-radius:3px;color:#233853}.choices button span{font-weight:800;color:#587ea7}.choices button.selected{border:2px solid #164d86;background:#f1f6fb}.review-check{display:flex;align-items:center;margin-top:24px;font-weight:400}.question-actions{display:flex;justify-content:space-between;margin-top:36px}.result-hero{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #dce3ec;padding-bottom:28px}.score{text-align:right}.score strong{font-size:48px;color:#164d86}.score span{color:#718198}.score b{display:block;color:#164d86}.result{margin-top:28px}.result-section{margin:38px 0}.category{display:flex;align-items:center;gap:12px;margin:12px 0;font-size:14px}.category>span{width:145px}.bar{background:#e5ebf2;height:8px;flex:1}.bar i{display:block;background:#164d86;height:100%}.category b{width:55px;text-align:right}.review-result{border-left:4px solid #9eacbb;background:#fff;padding:17px 21px;margin:10px 0}.review-result.correct{border-color:#2d8563}.review-result.incorrect{border-color:#c8493e}.review-result.unanswered{border-color:#d28633}.review-title{display:flex;gap:12px}.review-title span{font-size:12px}.review-result.correct .review-title span{color:#2d8563}.review-result.incorrect .review-title span{color:#c8493e}.review-title em{font-size:11px;color:#b26921}.explanation{background:#f3f6f9;padding:10px 12px;font-size:13px}.history-table{background:#fff;border:1px solid #e1e7ef;margin-top:26px}.history-row{display:grid;grid-template-columns:1.2fr 2fr .7fr 1fr 1fr;gap:15px;padding:15px 18px;border-bottom:1px solid #e8edf3;align-items:center;font-size:13px}.history-row:last-child{border:0}.history-head{background:#f5f8fb;color:#718198;font-size:11px;font-weight:700}.history-row a{color:#164d86;font-weight:700}.empty{background:#fff;padding:45px;text-align:center;color:#718198}.empty a{display:inline-block;color:#164d86;margin-top:15px;font-weight:700}@media(max-width:700px){header{padding:0 16px}nav{gap:12px}main{padding:30px 16px}h1{font-size:26px}.login-panel{padding:32px 24px}.summary-grid{grid-template-columns:repeat(2,1fr)}.summary-grid>div:nth-child(2){border-right:0}.summary-grid>div:nth-child(-n+2){border-bottom:1px solid #e1e7ef}.exam-head{align-items:start;gap:16px}.exam-head h1{font-size:18px}.timer{min-width:110px;padding:5px 10px}.timer strong{font-size:19px}.exam-layout{display:block}.question-nav{margin-bottom:16px}.question{padding:22px}.question h2{font-size:19px;margin:25px 0}.history-row{grid-template-columns:1fr 1fr}.history-head{display:none}.result-hero{display:block}.score{text-align:left;margin-top:15px}.category>span{width:100px;font-size:12px}.category{gap:7px}.actions{flex-wrap:wrap}}
+
+/* Prometric-style test workstation */
+.app-shell{min-height:100vh}
+.candidate-label{color:#6b7280;font-size:12px}
+.exam-screen{position:relative;width:min(1200px,calc(100vw - 16px));max-width:none;min-height:calc(100vh - 8px);margin:0 auto;border:1px solid #aeb8c4;background:#eef1f4;box-shadow:0 1px 3px #9ca7b3}
+.exam-screen .exam-head{background:#174a75;color:#fff;margin:0;padding:14px 20px;align-items:center}
+.exam-screen .exam-head h1{font-size:17px;margin:0;font-weight:500}
+.exam-product{font-size:11px;letter-spacing:.08em;margin:0 0 2px;color:#dbe9f5}
+.exam-screen .timer{background:#fff;border:0;border-radius:0;min-width:126px;padding:7px 12px}
+.exam-screen .timer span{font-size:11px;color:#334e68}
+.exam-screen .timer strong{font-size:22px;color:#172b4d;font-family:Consolas,monospace}
+.exam-screen .timer.warning{background:#fff1ed}
+.exam-screen .timer.warning strong{color:#b42318}
+.exam-toolbar{display:flex;align-items:center;gap:24px;padding:9px 20px;background:#dfe5ea;border-bottom:1px solid #b9c3ce;color:#263b50;font-size:13px}
+.exam-toolbar span:first-child{font-weight:700}
+.toolbar-help{margin-left:auto;border:1px solid #8999a8;background:#f8fafb;color:#324b63;padding:3px 12px;font-size:12px}
+.exam-screen .exam-layout{gap:16px;padding:16px;grid-template-columns:205px 1fr}
+.exam-screen .question-nav{border:1px solid #aeb8c4;border-radius:0;background:#f7f8f9;padding:14px}
+.exam-screen .question-nav h3{font-size:15px;border-bottom:1px solid #c7d0d9;padding-bottom:9px;margin-bottom:5px}
+.nav-note{font-size:11px;color:#637486;margin:0 0 12px}
+.exam-screen .number-grid{grid-template-columns:repeat(4,1fr);gap:5px}
+.exam-screen .number-grid button{height:34px;border:1px solid #8999a8;background:#fff;color:#263b50;border-radius:0}
+.exam-screen .number-grid button.current{background:#174a75;color:#fff;border:2px solid #0c3659}
+.exam-screen .number-grid button.answered{background:#d8e7f3}
+.exam-screen .number-grid button.review{box-shadow:inset 0 -4px #d28732}
+.exam-screen .legend{line-height:2;margin:11px 0 15px}
+.exam-screen .secondary,.exam-screen .primary{border-radius:0;padding:9px 15px;font-size:13px}
+.exam-screen .question{border:1px solid #aeb8c4;border-radius:0;background:#fff;padding:28px 32px;min-height:470px}
+.question-meta{display:flex;gap:8px;margin-bottom:24px}
+.question-meta span{background:#e8eef3;color:#38536c;border:1px solid #c4d0da;padding:3px 10px;font-size:12px}
+.exam-screen .question h2{font-size:20px;line-height:1.8;margin:0 0 28px;color:#1e344b}
+.exam-screen .choices{gap:9px}
+.exam-screen .choices button{border:1px solid #9baab8;border-radius:0;padding:12px 15px;min-height:50px}
+.exam-screen .choices button:hover{background:#f2f7fb}
+.exam-screen .choices button.selected{border:2px solid #174a75;background:#e5f0f8}
+.exam-screen .choices button span{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;background:#edf1f4;color:#263b50}
+.exam-screen .review-check{font-size:13px;margin-top:20px}
+.exam-screen .question-actions{border-top:1px solid #cbd4dc;padding-top:18px;margin-top:28px}
+.exam-footer{display:flex;justify-content:space-between;padding:8px 16px;background:#dfe5ea;border-top:1px solid #b9c3ce;color:#607386;font-size:11px}
+.exam-app{background:#dfe7eb;font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.exam-app header,.exam-app main>.eyebrow{display:none}
+.exam-app main{max-width:none;padding:0}
+.exam-app .exam-screen{position:relative;width:965px;max-width:calc(100% - 16px);margin:8px auto 0;border:1px solid #aaa;border-radius:8px;background:#fff;box-shadow:none;overflow:hidden}
+.exam-app .exam-screen .exam-head{height:39px;background:#000;border-bottom:0;border-radius:8px 8px 0 0;padding:0 15px;position:relative}
+.exam-app .exam-screen .exam-head h1{position:absolute;left:15px;top:21px;font:700 12px "MS Gothic","ＭＳ ゴシック",monospace;color:#fff}
+.exam-app .exam-product{position:absolute;top:3px;left:15px;font:700 12px "MS Gothic","ＭＳ ゴシック",monospace;color:#fff}
+.exam-app .exam-screen .timer{position:absolute;top:3px;left:400px;width:200px;min-width:0;padding:0 0 0 25px;background:transparent;color:#fff;text-align:left}
+.exam-app .exam-screen .timer span{color:#fff;font:700 13px "MS Gothic","ＭＳ ゴシック",monospace;display:inline}
+.exam-app .exam-screen .timer strong{color:#fff;font:700 14px "MS Gothic","ＭＳ ゴシック",monospace;margin-left:8px}
+.exam-app .exam-toolbar{height:24px;padding:3px 15px;background:#000;border:0;color:#fff;font:700 13px "MS Gothic","ＭＳ ゴシック",monospace}
+.exam-app .toolbar-help{background:transparent;border:0;color:#fff;font:700 13px "MS Gothic","ＭＳ ゴシック",monospace}
+.exam-app .exam-screen .exam-layout{display:block;gap:0;padding:63px 0 0;min-height:545px;position:relative}
+.exam-app .exam-screen .question-nav{position:absolute;top:0;left:9px;width:61px;padding:5px;background:#fff;border:1px solid #aaa;border-radius:0}
+.exam-app .exam-screen .question-nav h3{font-size:12px;text-align:center;padding:2px 0;margin:0;border-bottom:1px solid #aaa}
+.exam-app .nav-note{display:none}
+.exam-app .number-grid{grid-template-columns:repeat(2,1fr);gap:2px}
+.exam-app .number-grid button{height:26px;font:12px "MS Gothic","ＭＳ ゴシック",monospace;padding:0}
+.exam-app .exam-screen .legend{display:none}
+.exam-app .exam-screen .question-nav .secondary{font-size:10px;padding:3px 0;margin-top:5px}
+.exam-app .exam-screen .question{position:static;margin:0 15px 0 85px;border:1px solid #aaa;border-radius:5px;min-height:545px;padding:20px;background:#fff}
+.exam-app .question-meta{margin-bottom:15px}
+.exam-app .question-meta span{font-size:13px;border:0;background:transparent;padding:0;margin-right:10px;color:#333}
+.exam-app .exam-screen .question h2{font:16px/1.8 "MS Gothic","ＭＳ ゴシック",monospace;margin:0 0 20px;background:#efefef;padding:20px 5px 10px}
+.exam-app .exam-screen .choices button{font:14px "MS Gothic","ＭＳ ゴシック",monospace;border:3px solid #3d505a;border-radius:0;padding:8px;min-height:38px}
+.exam-app .exam-screen .choices button{align-items:center;line-height:1.4;padding-top:11px;padding-bottom:7px}
+.exam-app .exam-screen .choices button span{line-height:24px;transform:translateY(1px)}
+.exam-app .exam-screen .choices button.selected{border-color:#ffa500;background:#f8d369}
+.exam-app .exam-screen .choices button span{background:transparent;font-weight:700}
+.exam-app .exam-screen .review-check{font:14px "MS Gothic","ＭＳ ゴシック",monospace}
+.exam-app .exam-screen .question-actions{position:absolute;width:240px;right:10px;bottom:8px;border:0;padding:0;margin:0;z-index:2}
+.exam-app .exam-screen .question-actions .secondary,.exam-app .exam-screen .question-actions .primary{border:0;border-radius:0;background:#3498db;background-image:linear-gradient(to bottom,#3498db,#2980b9);font:20px Arial;color:#fff;padding:10px 20px}
+.exam-app .exam-footer{height:47px;background:#000;border-top:5px solid #619028;border-radius:0 0 8px 8px;color:#fff;padding:11px 15px;font:12px "MS Gothic","ＭＳ ゴシック",monospace}
+.exam-greenbar{height:20px;background:#619028;color:#fff;padding:2px 15px;font:700 12px/16px "MS Gothic","ＭＳ ゴシック",monospace}
+.exam-greenbar b{float:right;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.exam-app .exam-candidate{display:none}
+.exam-app .exam-toolbar{height:0;padding:0;overflow:visible;position:relative;background:transparent;border:0}
+.exam-app .exam-toolbar span{display:none}
+.exam-app .exam-toolbar span:first-child{left:15px}
+.exam-app .exam-toolbar span:nth-child(2){left:15px;top:-39px}
+.exam-app .exam-toolbar .toolbar-help{display:none}
+.exam-app .exam-screen .exam-layout{position:static;padding-top:40px}
+.exam-app .exam-screen .question-nav{top:63px;left:9px;width:45px;border:0;background:transparent}
+.exam-app .exam-screen .question-nav h3{display:none}
+.exam-app .exam-screen .number-grid{display:flex;flex-direction:column;gap:2px}
+.exam-app .exam-screen .number-grid button{width:39px;height:25px;border:0;border-radius:0;background:#5a9e1f;color:#fff;clip-path:polygon(0 0,80% 0,100% 50%,80% 100%,0 100%);font-weight:700}
+.exam-app .exam-screen .number-grid button.current{background:#a5c979;color:#fff;border:0}
+.exam-app .exam-screen .number-grid button.answered{background:#5a9e1f}
+.exam-app .exam-screen .number-grid button.review{box-shadow:none}
+.exam-app .exam-screen .question-nav .secondary{display:none}
+.exam-app .exam-screen .question{margin-left:85px;margin-right:15px;min-height:calc(100vh - 150px)}
+.exam-app .question-meta span{font-weight:700;color:#333}
+.exam-app .exam-screen .question-actions{bottom:9px;right:15px;width:180px;height:25px;display:flex;gap:7px;z-index:3}
+.exam-app .exam-screen .question-actions .secondary,.exam-app .exam-screen .question-actions .primary{flex:1;min-width:0;height:25px;border:0;border-radius:0;background:#609e20;background-image:none;color:#fff;font:14px/25px "MS Gothic","ＭＳ ゴシック",monospace;padding:0 10px}
+.exam-app .exam-screen .question-actions .secondary{clip-path:polygon(14% 0,100% 0,100% 100%,14% 100%,0 50%)}
+.exam-app .exam-screen .question-actions .primary{clip-path:polygon(0 0,86% 0,100% 50%,86% 100%,0 100%)}
+.exam-app .exam-screen .question-actions .secondary:disabled{background:#609e20;color:#fff;opacity:1}
+.exam-app .exam-footer{display:flex;align-items:center;gap:22px;position:relative;height:35px;padding:3px 15px;border-top:5px solid #619028}
+.exam-app .footer-tools{display:flex;align-items:center;width:130px;height:25px;gap:17px;font-size:22px;line-height:25px;font-family:Arial;color:#fff;white-space:nowrap}
+.exam-app .footer-tools i{display:block;width:2px;height:25px;background:#fff}
+.exam-app .footer-gear,.exam-app .footer-help{border:0;background:transparent;color:#fff;padding:0;cursor:pointer}
+.exam-app .footer-gear{font-size:22px;line-height:25px}
+.exam-app .footer-help{font-weight:700;font-size:22px;line-height:25px}
+.exam-app .exam-footer span:nth-child(2){position:absolute;right:202px;top:3px;margin:0;background:#609e20;width:32px;height:25px;padding:0;text-align:center;font-size:19px;line-height:25px}
+.confirmation-page{min-height:100vh;background:#dfe7eb;padding:8px 16px;font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.confirmation-window{width:min(1200px,100%);height:calc(100vh - 16px);min-height:620px;margin:0 auto;background:#fff;border:0;border-radius:0;box-shadow:none;overflow:hidden}
+.confirmation-window>h1{height:59px;margin:0;padding:4px 15px;background:linear-gradient(to bottom,#000 0,#000 39px,#619028 39px,#619028 59px);color:#fff;font:700 12px/16px "MS Gothic","ＭＳ ゴシック",monospace}
+.confirmation-body{padding:80px 64px 40px;text-align:center}
+.confirmation-info{border:1px solid #c6cdd1;border-radius:4px;background:#fafbfb;padding:16px 22px;text-align:left;color:#333;font:13px/1.35 "MS Gothic","ＭＳ ゴシック",monospace}
+.confirmation-info p{margin:0 0 10px}
+.confirmation-info p:last-child{margin-bottom:0}
+.confirmation-info span{display:inline-block;width:125px}
+.completed-badge{display:inline-flex;align-items:center;background:#eef3e8;border:1px solid #a7bc8d;color:#4e741f;padding:12px 18px;font-weight:700;font-size:14px}
+.preview-link{display:inline-flex;align-items:center;color:#587ea7;font-size:13px;text-decoration:underline;padding:12px 4px}
+.instruction-terminal{min-height:100vh;background:#dfe7eb;padding:8px 16px;font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.instruction-window{width:min(1200px,100%);height:calc(100vh - 16px);min-height:620px;margin:0 auto;background:#fff;border:0;border-radius:0;overflow:hidden;box-shadow:none;display:grid;grid-template-rows:59px minmax(0,1fr) 47px}
+.instruction-head{height:59px;background:linear-gradient(to bottom,#000 0,#000 39px,#619028 39px,#619028 59px);border:0;color:#fff;padding:4px 15px;font:700 12px/16px "MS Gothic","ＭＳ ゴシック",monospace;position:relative}
+.instruction-head b{position:absolute;right:15px;top:42px;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.instruction-body{min-height:0;padding:0 64px;background:#fff}
+.instruction-content{height:100%;overflow-y:auto;border:1px solid #aaa;border-radius:5px;padding:28px 18px 50px;color:#222;font:14px/1.8 "MS Gothic","ＭＳ ゴシック",monospace}
+.instruction-content h1{color:#619028;font:700 26px "MS Gothic","ＭＳ ゴシック",monospace;margin:0 0 30px}
+.instruction-content h2{font:700 15px "MS Gothic","ＭＳ ゴシック",monospace;margin:28px 0 8px;border-bottom:1px solid #aaa}
+.instruction-content p{margin:8px 0}
+.instruction-content ul{padding-left:25px}
+.instruction-content dl{display:grid;grid-template-columns:120px 1fr;border-top:1px solid #bbb}
+.instruction-content dt,.instruction-content dd{margin:0;padding:6px;border-bottom:1px solid #bbb}
+.instruction-content dt{font-weight:700}
+.instruction-check{display:flex;align-items:center;margin-top:24px}
+.instruction-check input{width:18px;height:18px;margin-right:8px}
+.instruction-footer{height:47px;background:#000;border-top:5px solid #619028;color:#fff;padding:7px 15px;display:flex;align-items:center;font-size:21px}
+.instruction-footer button{margin-left:auto;width:190px;height:30px;background:#f5d477;border:1px solid #b99c43;border-radius:4px;color:#333;font:14px "MS Gothic","ＭＳ ゴシック",monospace}
+.instruction-footer button:disabled{opacity:.5}
+.instruction-footer .gear-button{margin:0;width:27px;height:30px;padding:0;background:transparent;border:0;color:#fff;font:21px Arial}
+.instruction-footer .footer-divider{margin:0 4px;color:#fff}
+.instruction-footer .help-button{margin:0;width:27px;height:30px;padding:0;background:transparent;border:0;color:#fff;font:21px Arial}
+.palette-overlay{position:fixed;inset:0;background:rgba(0,0,0,.3);display:grid;place-items:center;z-index:20}
+.palette-modal{width:820px;max-width:calc(100% - 28px);background:#fff;border:1px solid #555;border-radius:4px;box-shadow:0 3px 12px #444;font-family:"MS Gothic","ＭＳ ゴシック",monospace}
+.palette-modal>h2{margin:0;padding:5px 10px;background:#000;color:#fff;font-size:13px;font-weight:400}
+.palette-modal-body{padding:10px;text-align:center}
+.palette-modal-body p{margin:0;font-size:16px;font-weight:700;color:#555}
+.palette-modal-body>strong{display:block;color:#d22;font-size:13px;margin:2px 0 10px}
+.palette-options{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+.palette-options button{height:27px;border:1px solid #777;border-radius:4px;font:13px "MS Gothic","ＭＳ ゴシック",monospace;cursor:pointer}
+.palette-options button.active{outline:3px solid #619b22;outline-offset:1px}
+.palette-options button.palette-standard{background:#619b22;color:#fff}
+.palette-options button.palette-cream{background:#fffbd2;color:#111}
+.palette-options button.palette-black{background:#000;color:#fff}
+.palette-options button.palette-yellow{background:#ffff00;color:#111}
+.palette-options button.palette-blue{background:#fff;color:#12285c}
+.palette-options button.palette-cyan{background:#b9efff;color:#111}
+.palette-close{margin:22px auto 8px!important;width:130px!important;height:36px!important;background:#619b22!important;color:#fff!important;border:0!important;border-radius:4px!important}
+.instruction-terminal.palette-cream .instruction-content{background:#fffbd2}
+.instruction-terminal.palette-black .instruction-content{background:#000;color:#fff}
+.instruction-terminal.palette-yellow .instruction-content{background:#ffff00;color:#111}
+.instruction-terminal.palette-blue .instruction-content{background:#fff;color:#12285c}
+.instruction-terminal.palette-cyan .instruction-content{background:#b9efff;color:#111}
+.help-overlay{position:fixed;inset:0;background:#dfe7eb;display:grid;place-items:center;padding:0;z-index:20}
+.help-window{width:min(1200px,100%);height:calc(100vh - 16px);min-height:620px;background:#fff;border:0;overflow:hidden;font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace;display:grid;grid-template-rows:59px minmax(0,1fr) 47px}
+.help-head{height:59px;background:linear-gradient(to bottom,#000 0,#000 39px,#619028 39px,#619028 59px);color:#fff;padding:4px 15px;font-size:12px;font-weight:700}
+.help-content{min-height:0;margin:0 72px;border:1px solid #aaa;border-radius:5px;overflow-y:auto;padding:28px 18px 50px;color:#111;font-size:14px;line-height:1.8}
+.help-content h1{color:#619028;font-size:25px;margin:0 0 28px}
+.help-content h2{font-size:16px;border-bottom:1px solid #aaa;margin:26px 0 8px}
+.help-content h3{font-size:14px;text-decoration:underline;margin:17px 0 4px}
+.help-content p{margin:7px 0}
+.help-content ul{padding-left:24px}
+.help-footer{height:47px;background:#000;border-top:5px solid #619028;padding:7px 15px;text-align:right}
+.help-footer button{height:30px;width:190px;background:#f5d477;border:1px solid #b99c43;border-radius:4px;color:#333;font:14px "MS Gothic","ＭＳ ゴシック",monospace}
+.completion-terminal{min-height:100vh;background:#dfe7eb;padding:34px 16px;font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.completion-window{width:965px;max-width:100%;margin:0 auto;background:#fff;border:1px solid #888;border-radius:7px;overflow:hidden;box-shadow:0 1px 3px #aeb8bd}
+.completion-window header{height:52px;background:#000;border:0;border-bottom:10px solid #619028;border-radius:7px 7px 0 0;padding:0 15px;color:#fff;display:flex;align-items:center;gap:28px;font:13px "MS Gothic","ＭＳ ゴシック",monospace}
+.completion-window header span:last-child{margin-left:auto}
+.completion-title{height:31px;padding:7px 15px;background:#000;color:#fff;font-weight:700;font-size:13px}
+.completion-body{width:864px;max-width:calc(100% - 30px);min-height:440px;margin:28px auto 32px;border:1px solid #aaa;border-radius:5px;text-align:center;padding:46px 24px 35px}
+.completion-icon{width:58px;height:58px;margin:0 auto 18px;border-radius:50%;background:#619b22;color:#fff;font:36px/58px Arial}
+.completion-body h1{margin:12px 0 24px;font-size:25px;font-weight:700}
+.completion-copy{color:#333;font-size:15px;line-height:2}
+.completion-divider{width:440px;max-width:90%;border-top:1px solid #ccd2d5;margin:28px auto 18px}
+.completion-body .completion-note{color:#666;font-size:12px;margin:0 0 24px}
+.completion-exit{display:inline-block;background:#619b22;color:#fff;border:1px solid #4b7b18;border-radius:4px;padding:8px 46px;font-size:14px;box-shadow:inset 0 1px rgba(255,255,255,.25)}
+.completion-window footer{height:47px;background:#000;border-top:5px solid #619028;color:#fff;padding:12px 15px;font-size:12px}
+.history-private{grid-template-columns:1.2fr 2fr 1fr}
+.confirmation-message{margin:24px 0 28px;color:#333;font:13px/1.4 "MS Gothic","ＭＳ ゴシック",monospace}
+.confirmation-actions{display:flex;justify-content:center;gap:28px}
+.confirmation-actions button{border:0;border-radius:4px;background:#619b22;color:#fff;padding:11px 22px;font:14px "MS Gothic","ＭＳ ゴシック",monospace;box-shadow:inset 0 1px rgba(255,255,255,.25);cursor:pointer}
+.confirmation-actions button:hover{background:#4f8319}
+.login-page,.app-shell:not(.exam-app){font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace;background:#dfe7eb;color:#222}
+.login-page{padding:8px 16px}
+.login-panel{width:min(680px,calc(100% - 32px));padding:0;border:1px solid #777;border-radius:4px;box-shadow:0 1px 2px #aeb8bd;overflow:hidden}
+.login-panel .eyebrow{height:59px;margin:0;padding:4px 15px;background:linear-gradient(to bottom,#000 0,#000 39px,#619028 39px,#619028 59px);color:#fff;font:700 12px/16px "MS Gothic","ＭＳ ゴシック",monospace}
+.login-panel h1{margin:0;padding:28px 42px 0;color:#619028;font:700 26px "MS Gothic","ＭＳ ゴシック",monospace}
+.login-panel .lead{margin:8px 42px 28px;color:#333;font:14px/1.8 "MS Gothic","ＭＳ ゴシック",monospace}
+.login-panel form{margin:0 42px;padding:18px 22px;background:#fafbfb;border:1px solid #c6cdd1;border-radius:4px}
+.login-panel label{font:13px "MS Gothic","ＭＳ ゴシック",monospace}
+.login-panel input{border:1px solid #aaa;border-radius:2px;padding:8px 10px;background:#fff}
+.login-panel .primary{background:#619b22;border:1px solid #4b7b18;border-radius:4px;color:#fff;font:14px "MS Gothic","ＭＳ ゴシック",monospace}
+.login-panel .hint{margin:20px 42px 28px;color:#666;font:12px "MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) header{height:59px;background:linear-gradient(to bottom,#000 0,#000 39px,#619028 39px,#619028 59px);border:0;color:#fff;padding:4px 15px;font:12px "MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) .brand,.app-shell:not(.exam-app) nav a,.app-shell:not(.exam-app) .link-button{color:#fff;font-family:"MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) .brand{font-weight:700;letter-spacing:0}
+.app-shell:not(.exam-app) .brand span,.app-shell:not(.exam-app) .candidate-label{color:#fff}
+.app-shell:not(.exam-app) main{max-width:1200px;margin:0 auto;padding:28px 64px 47px;background:#fff;min-height:calc(100vh - 59px);font:14px/1.8 "MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) h1{color:#619028;font:700 26px "MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) h2,.app-shell:not(.exam-app) h3{font-family:"MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) .primary{background:#619b22;border-color:#4b7b18;border-radius:4px;color:#fff;font-family:"MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) .secondary{border-color:#777;border-radius:4px;color:#333;font-family:"MS Gothic","ＭＳ ゴシック",monospace}
+.app-shell:not(.exam-app) .notice{background:#fffbd2;border:1px solid #c6cdd1;color:#333}
+.app-shell:not(.exam-app) .summary-grid,.app-shell:not(.exam-app) .history-table{border-color:#aaa}
+.admin-page{min-height:100vh;background:#dfe7eb;font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace;color:#222}
+.admin-page>header{height:59px;background:linear-gradient(to bottom,#000 0,#000 39px,#619028 39px,#619028 59px);border:0;color:#fff;padding:4px 15px;font:700 12px/16px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-page>header nav{font:12px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-page>header .link-button{color:#fff}
+.admin-page>header nav a{color:#fff;font:12px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-unread-count{display:inline-block;min-width:18px;margin-left:4px;padding:1px 4px;border-radius:10px;background:#f5d477;color:#222;text-align:center;font-size:10px}
+.admin-page main{max-width:1200px;min-height:calc(100vh - 59px);margin:0 auto;padding:28px 64px 47px;background:#fff}
+.admin-back-link{display:inline-block;margin-bottom:18px;color:#355d14;font:700 13px "MS Gothic","ＭＳ ゴシック",monospace;text-decoration:underline}
+.admin-back-link:hover{color:#619b22}
+.admin-page h1{color:#619028;font:700 26px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-dashboard-links{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0 34px}
+.admin-dashboard-links a{display:grid;gap:7px;padding:18px;border:1px solid #aaa;background:#fafbfb;color:#222;transition:transform .2s,box-shadow .2s,background-color .2s}
+.admin-dashboard-links a:hover{background:#eef3e8;box-shadow:0 4px 0 #619028;transform:translateY(-3px)}
+.admin-dashboard-links strong{color:#355d14;font:700 15px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-dashboard-links span{color:#666;font-size:12px}
+.admin-inbox-section{border-top:2px solid #619028;padding-top:18px}
+.admin-inbox-section h2{margin:0;font:700 18px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-results{display:grid;gap:14px;margin-top:26px}
+.admin-result{border:1px solid #aaa;background:#fafbfb;padding:18px 22px}
+.admin-result-head{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid #c6cdd1;padding-bottom:12px}
+.admin-result-head div{display:flex;gap:20px;align-items:baseline}
+.admin-result-head span,.admin-meta{color:#666;font-size:12px}
+.admin-result-head>b{color:#619b22;font-size:20px}
+.admin-categories{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.admin-categories>div{display:grid;gap:2px;padding:9px;background:#fffbd2;border:1px solid #ddd4a2}
+.admin-categories span,.admin-categories em{font-size:12px;font-style:normal}
+.admin-categories strong{font-size:14px}
+.admin-meta{margin:14px 0 0}
+.admin-layout{display:grid;grid-template-columns:220px 1fr;gap:24px;margin-top:26px}
+.student-folders{border:1px solid #aaa;background:#f7f8f9;padding:12px;height:max-content}
+.student-folders h2,.admin-section-title h2{font:700 16px "MS Gothic","ＭＳ ゴシック",monospace;margin:0 0 10px}
+.student-folders button{display:flex;justify-content:space-between;width:100%;border:1px solid transparent;background:#fff;padding:11px 10px;text-align:left;color:#222;font:13px "MS Gothic","ＭＳ ゴシック",monospace}
+.student-folders button+button{border-top:1px solid #e0e4e7}
+.student-folders button.selected{background:#dcebc9;border-color:#619028;color:#355d14}
+.student-folders button span{color:#666;font-size:11px}
+.admin-section-title{display:flex;align-items:baseline;justify-content:space-between;border-bottom:2px solid #619028;padding-bottom:8px}
+.admin-section-title>span{color:#666;font-size:12px}
+.admin-months{display:grid;gap:24px;margin-top:18px}
+.admin-month>h3{margin:0;padding:8px 12px;background:#000;color:#fff;border-left:6px solid #619028;font:700 15px "MS Gothic","ＭＳ ゴシック",monospace}
+.admin-month .admin-results{margin-top:10px}
+.admin-inbox{display:grid;gap:10px;margin-top:26px}
+.admin-inbox-item{display:grid;grid-template-columns:54px 1fr 100px 180px 80px;gap:14px;align-items:center;width:100%;padding:16px 18px;border:1px solid #c6cdd1;background:#fafbfb;text-align:left;color:#222;font:13px "MS Gothic","ＭＳ ゴシック",monospace;cursor:pointer}
+.admin-inbox-item.unread{border-color:#619028;background:#fffbd2;box-shadow:inset 6px 0 #619028}
+.admin-inbox-item:hover{background:#eef3e8}
+.admin-inbox-status{color:#666;font-size:11px}
+.admin-inbox-item.unread .admin-inbox-status{color:#619b22;font-weight:700}
+.admin-inbox-item>b{color:#619b22;text-align:right;font-size:16px}
+.exam-import-panel,.managed-exams{margin-top:24px;border:1px solid #aaa;padding:20px;background:#fafbfb}
+.exam-import-panel h2,.managed-exams h2{font:700 17px "MS Gothic","ＭＳ ゴシック",monospace;margin:0 0 14px}
+.exam-form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.exam-form-grid label{font:13px "MS Gothic","ＭＳ ゴシック",monospace}
+.exam-form-grid input{width:100%;margin-top:4px}
+.exam-import-panel textarea{display:block;width:100%;min-height:150px;margin-top:14px;padding:10px;border:1px solid #aaa;font:12px/1.5 Consolas,monospace;resize:vertical}
+.csv-help{color:#666;font-size:12px;margin:14px 0 0}
+.csv-file{display:inline-flex;align-items:center;padding:10px 14px;border:1px solid #777;background:#fff;font:13px "MS Gothic","ＭＳ ゴシック",monospace}
+.csv-file input{display:none}
+.admin-feedback{margin:14px 0 0;padding:10px;background:#fffbd2;border:1px solid #c6cdd1}
+.managed-exams{display:grid;gap:10px}
+.managed-exams>h2{grid-column:1/-1}
+.managed-exam{display:grid;grid-template-columns:1fr auto;gap:8px 18px;padding:15px;border:1px solid #c6cdd1;background:#fff}
+.managed-exam.is-published{border-color:#619028;background:#eef3e8;box-shadow:inset 6px 0 #619028}
+.managed-exam>div{display:grid;gap:4px}
+.managed-exam span{color:#666;font-size:12px}
+.managed-exam>b{align-self:center;padding:5px 9px;font-size:12px}
+.status-draft{background:#fffbd2;color:#795d00}.status-review{background:#e5eef8;color:#24507a}.status-published{background:#dcebc9;color:#355d14}.status-unpublished{background:#eee;color:#666}
+.managed-exam-actions{grid-column:1/-1;display:flex;gap:8px}
+.managed-exam-actions button{border:1px solid #777;background:#fff;padding:7px 10px;font:12px "MS Gothic","ＭＳ ゴシック",monospace}
+.dashboard-app,.dashboard-app main,.dashboard-app main *{font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.dashboard-app .summary-grid{grid-template-columns:repeat(3,1fr)}
+.dashboard-app main>.eyebrow{animation:dashboard-fade-in .55s ease both}
+.dashboard-app main>h1{animation:dashboard-slide-down .65s cubic-bezier(.2,.8,.2,1) both}
+.dashboard-app .intro{animation:dashboard-slide-up .7s .12s cubic-bezier(.2,.8,.2,1) both}
+.dashboard-app .intro h2{font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.dashboard-app .summary-grid{overflow:hidden;animation:dashboard-slide-up .7s .22s cubic-bezier(.2,.8,.2,1) both}
+.dashboard-app .summary-grid>div{transition:background-color .25s ease,transform .25s ease,box-shadow .25s ease}
+.dashboard-app .summary-grid>div:nth-child(1){animation:dashboard-card-in .55s .3s both}
+.dashboard-app .summary-grid>div:nth-child(2){animation:dashboard-card-in .55s .4s both}
+.dashboard-app .summary-grid>div:nth-child(3){animation:dashboard-card-in .55s .5s both}
+.dashboard-app .summary-grid>div:nth-child(4){animation:dashboard-card-in .55s .6s both}
+.dashboard-app .summary-grid>div:hover{background:#fffbd2;box-shadow:inset 0 -4px #619028;transform:translateY(-4px)}
+.dashboard-app .summary-grid strong{font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.dashboard-app .notice{animation:dashboard-slide-up .7s .7s both}
+.dashboard-app .notice h3{font-family:"MS Gothic","ＭＳ ゴシック",Osaka-mono,monospace}
+.dashboard-app .notice li{animation:dashboard-fade-in .5s both}
+.dashboard-app .notice li:nth-child(1){animation-delay:.85s}
+.dashboard-app .notice li:nth-child(2){animation-delay:.98s}
+.dashboard-app .notice li:nth-child(3){animation-delay:1.11s}
+.dashboard-app .actions{animation:dashboard-slide-up .7s 1.15s both}
+.dashboard-app .actions a{transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease}
+.dashboard-app .actions a:hover{transform:translateY(-3px);box-shadow:0 5px 0 #355d14}
+.dashboard-app .actions .primary{animation:dashboard-pulse 2.8s 1.8s ease-in-out infinite}
+.published-exams{margin-top:32px;border-top:2px solid #619028;padding-top:18px}
+.published-exams h2{font:700 18px "MS Gothic","ＭＳ ゴシック",monospace;margin:0 0 12px;color:#355d14}
+.published-exam{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:16px 18px;border:1px solid #619028;background:#eef3e8;box-shadow:inset 6px 0 #619028}
+.published-exam>div{display:grid;gap:4px}.published-exam strong{font:700 15px "MS Gothic","ＭＳ ゴシック",monospace}.published-exam span{font-size:12px;color:#666}
+@keyframes dashboard-fade-in{from{opacity:0}to{opacity:1}}
+@keyframes dashboard-slide-down{from{opacity:0;transform:translateY(-16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes dashboard-slide-up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes dashboard-card-in{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
+@keyframes dashboard-pulse{0%,100%{box-shadow:0 0 0 0 rgba(97,155,34,0)}50%{box-shadow:0 0 0 7px rgba(97,155,34,.18)}}
+@media(prefers-reduced-motion:reduce){.dashboard-app *,.dashboard-app *::before,.dashboard-app *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+@media(max-width:700px){.candidate-label{display:none}.exam-screen{margin:0;border-left:0;border-right:0}.exam-screen .exam-layout{padding:8px;display:block}.exam-screen .question-nav{margin-bottom:8px}.exam-screen .question{padding:20px}.exam-toolbar{padding:8px 12px;gap:10px}.toolbar-help{display:none}.exam-footer{display:none}.dashboard-app .summary-grid{grid-template-columns:repeat(2,1fr)}.confirmation-page{padding:8px}.confirmation-window{min-height:calc(100vh - 16px)}.confirmation-body{padding:50px 22px 30px}}
+@media(max-width:700px){.admin-page main{padding:24px 16px}.admin-page>header nav{gap:8px}.admin-dashboard-links{grid-template-columns:1fr}.admin-layout{display:block}.student-folders{margin-bottom:20px}.admin-result-head{display:block}.admin-result-head>b{display:block;margin-top:8px}.admin-categories{grid-template-columns:repeat(2,1fr)}.admin-inbox-item{grid-template-columns:48px 1fr 65px;gap:8px}.admin-inbox-item span:nth-of-type(2),.admin-inbox-item span:nth-of-type(3){display:none}}
