@@ -21,8 +21,18 @@ const read = <T>(key: string, fallback: T): T => {
 export const auth = {
   login(id: string, password: string): User | null {
     const normalizedId = id.trim()
-    if (normalizedId !== 'test-user' || password !== 'test1234') return null
+    const validUsers = [
+  { id: 'test-user', password: 'test1234' },
+  { id: 'michio00', password: '1234' },
+  { id: 'yuki00', password: '1234' },
+  { id: '0000', password: '1234' }
+]
 
+const matchedUser = validUsers.find(
+  user => user.id === normalizedId && user.password === password
+)
+
+if (!matchedUser) return null
     const user = { id: normalizedId, displayName: normalizedId }
     localStorage.setItem(storageKeys.user, JSON.stringify(user))
     return user
